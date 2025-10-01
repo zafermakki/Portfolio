@@ -32,7 +32,7 @@ const Hero = () => {
               <p className="text-xl text-gray-300 leading-relaxed">
                 Specializing in developing modern web applications using 
                 <span className="text-blue-400 font-semibold"> Next.js</span>, 
-                <span className="text-cyan-400 font-semibold"> React</span>, and 
+                <span className="text-cyan-400 font-semibold"> React.js</span>, and 
                 <span className="text-purple-400 font-semibold"> Django.</span>
               </p>
             </div>
