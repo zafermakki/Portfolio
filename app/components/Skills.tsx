@@ -105,13 +105,15 @@ const Skills = () => {
         >
           {technologies.map((tech, index) => (
             <div
-              key={index}
-              className="glass p-6 rounded-xl hover-lift flex flex-col items-center min-w-[120px]"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className="text-4xl mb-3">{tech.icon}</div>
-              <div className="text-base text-gray-300 font-medium">{tech.name}</div>
+            key={index}
+            className="glass p-6 rounded-xl hover-lift flex flex-col items-center justify-center w-32 h-32"
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
+            <div className="text-4xl mb-3">{tech.icon}</div>
+            <div className="text-center text-base text-gray-300 font-medium">
+              {tech.name}
             </div>
+          </div>
           ))}
         </div>
 
