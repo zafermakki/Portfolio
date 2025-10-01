@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const projectIcons: Record<number, JSX.Element> = {
+const projectIcons: Record<number, React.ReactNode> = {
   1: (
     <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <circle cx="9" cy="21" r="1" />
