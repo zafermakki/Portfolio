@@ -33,6 +33,13 @@ const projectIcons: Record<number, React.ReactNode> = {
       <path d="M7 21v-4a2 2 0 012-2h6a2 2 0 012 2v4" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   ),
+  5: (
+    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M3 10.5L12 4l9 6.5" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
+      <rect x="5" y="11" width="14" height="8" rx="2" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9 19v-4h6v4" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
 };
 
 const Projects = () => {
@@ -91,6 +98,14 @@ const Projects = () => {
       description: 'The First project I built using Next.js.',
       technologies: ['Next.js', 'Typescript', 'Tailwind.css', 'MUI', 'Django', 'MySql'],
       githubUrl: 'https://github.com/zafermakki/Flight_Reservation/blob/main/README.md',
+      featured: false,
+    },
+    {
+      id: 5,
+      title: 'Employment_Platform',
+      description: 'A digital platform that connects tech engineers with software companies in Syria, offering opportunities for training and employment.',
+      technologies: ['Next.js', 'Typescript', 'Tailwind.css', 'MUI', 'Django', 'MySql'],
+      githubUrl: 'https://github.com/zafermakki/Employment_Platform',
       featured: false,
     },
   ];
