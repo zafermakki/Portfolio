@@ -1,6 +1,5 @@
 'use client';
 
-<<<<<<< HEAD
 import { useEffect, useState, type ReactNode } from 'react';
 
 const projectIcons: Record<number, ReactNode> = {
@@ -28,20 +27,6 @@ const projectIcons: Record<number, ReactNode> = {
       stroke="currentColor"
       viewBox="0 0 24 24"
     >
-=======
-import { useEffect, useState } from 'react';
-
-const projectIcons: Record<number, React.ReactNode> = {
-  1: (
-    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <circle cx="9" cy="21" r="1" />
-      <circle cx="20" cy="21" r="1" />
-      <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61l1.38-7.39H6" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  ),
-  2: (
-    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
       <rect x="3" y="11" width="18" height="6" rx="2" />
       <path d="M5 11V7a2 2 0 012-2h10a2 2 0 012 2v4" />
       <circle cx="7.5" cy="17.5" r="1.5" />
@@ -49,7 +34,6 @@ const projectIcons: Record<number, React.ReactNode> = {
     </svg>
   ),
   3: (
-<<<<<<< HEAD
     <svg
       className="w-10 h-10 text-white"
       fill="none"
@@ -134,29 +118,6 @@ const projectIcons: Record<number, React.ReactNode> = {
       />
     </svg>
   ),
-=======
-    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path d="M3 10.5L12 4l9 6.5" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <rect x="5" y="11" width="14" height="8" rx="2" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <path d="M9 19v-4h6v4" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  ),
-  4: (
-    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path d="M10.18 9" />
-      <path d="M21 16v-2a2 2 0 00-2-2h-7.34l1.13-5.34a1 1 0 00-1.94-.4l-1.5 7A1 1 0 009 15h8a1 1 0 001-1v-1" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <path d="M3 21h18" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <path d="M7 21v-4a2 2 0 012-2h6a2 2 0 012 2v4" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  ),
-  5: (
-    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path d="M3 10.5L12 4l9 6.5" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <rect x="5" y="11" width="14" height="8" rx="2" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-      <path d="M9 19v-4h6v4" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  )
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
 };
 
 const Projects = () => {
@@ -188,64 +149,33 @@ const Projects = () => {
     {
       id: 1,
       title: 'E-commerce',
-<<<<<<< HEAD
       description:
         'Multi-role full-stack system built with React.js, Django REST + 3 frontends (Admin, Customer, Driver). Code organized into 4 repositories.',
       technologies: ['React.js', 'JavaScript', 'Css', 'MUI', 'Django', 'MySql'],
-=======
-      description: 'Multi-role full-stack system built with React.js, Django REST + 3 frontends (Admin, Customer, Driver). Code organized into 4 repositories.',
-      technologies: ['React.js', 'JavaScript','Css','MUI','Django','MySql'],
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
       githubUrl: 'https://github.com/zafermakki/E-commerce-FullStack/blob/main/README.md',
       featured: true,
     },
     {
       id: 2,
-<<<<<<< HEAD
       title: 'Mad_Solution_Project',
       description: 'The project I worked on during my internship at the company.',
       technologies: ['React.js', 'JavaScript', 'Css', 'MUI'],
       githubUrl: 'https://github.com/zafermakki/Mad_Solution_Project',
-=======
-      title: 'E-commerce Cars',
-      description: 'The first simple fullstack project I did, and from it I learned the mechanism of linking the front-end and back-end.',
-      technologies: ['React.js', 'JavaScript','Css','MUI','Django','MySql'],
-      githubUrl: 'https://github.com/zafermakki/Flight_Reservation/blob/main/README.md',
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
       featured: false,
     },
     {
       id: 3,
-<<<<<<< HEAD
       title: 'Flight_Reservation',
       description: 'Developed a full-stack flight booking system using Next.js and Django.',
-=======
-      title: 'Mad_Solution_Project',
-      description: 'The project I worked on during my internship at the company.',
-      technologies: ['React.js', 'JavaScript','Css', 'MUI'],
-      githubUrl: 'https://github.com/zafermakki/Mad_Solution_Project',
-      featured: false,
-    },
-    {
-      id: 4,
-      title: 'Flight_Reservation',
-      description: 'The First project I built using Next.js.',
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
       technologies: ['Next.js', 'Typescript', 'Tailwind.css', 'MUI', 'Django', 'MySql'],
       githubUrl: 'https://github.com/zafermakki/Flight_Reservation/blob/main/README.md',
       featured: false,
     },
     {
-<<<<<<< HEAD
       id: 4,
       title: 'Employment_Platform',
       description:
         'A digital platform that connects tech engineers with software companies in Syria, offering opportunities for training and employment.',
-=======
-      id: 5,
-      title: 'Employment_Platform',
-      description: 'A digital platform that connects tech engineers with software companies in Syria, offering opportunities for training and employment.',
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
       technologies: ['Next.js', 'Typescript', 'Tailwind.css', 'MUI', 'Django', 'MySql'],
       githubUrl: 'https://github.com/zafermakki/Employment_Platform',
       featured: false,
@@ -253,17 +183,11 @@ const Projects = () => {
   ];
 
   return (
-<<<<<<< HEAD
     <section
       id="projects"
       className="py-24 bg-gradient-to-b from-transparent to-gray-900/50"
     >
       <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
-=======
-    <section id="projects" className="py-24 bg-gradient-to-b from-transparent to-gray-900/50">
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
-        {/* Section Header */}
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
         <div className={`text-center mb-20 ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8">
             <span className="gradient-text">Projects</span>
@@ -273,7 +197,6 @@ const Projects = () => {
           </p>
         </div>
 
-<<<<<<< HEAD
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 items-stretch mb-20">
           {projects.map((project, index) => (
             <div
@@ -284,32 +207,16 @@ const Projects = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative h-48 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 shrink-0">
-=======
-        {/* Projects Grid */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 justify-items-center mb-20">
-          {projects.map((project, index) => (
-            <div
-              key={project.id}
-              className={`glass rounded-xl overflow-hidden hover-lift w-full max-w-sm ${isVisible ? 'animate-fadeInUp' : 'opacity-0'}`}
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              {/* Project Icon */}
-              <div className="relative h-48 bg-gradient-to-br from-blue-500/20 to-cyan-500/20">
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg mx-auto mb-4 flex items-center justify-center">
                       {projectIcons[project.id] || (
-<<<<<<< HEAD
                         <svg
                           className="w-8 h-8 text-white"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
                         >
-=======
-                        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
                           <circle cx="12" cy="12" r="10" strokeWidth={2} />
                         </svg>
                       )}
@@ -317,10 +224,6 @@ const Projects = () => {
                     <p className="text-gray-400 text-sm">Project Icon</p>
                   </div>
                 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
                 {project.featured && (
                   <div className="absolute top-4 left-4 bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center justify-center">
                     <svg
@@ -334,7 +237,6 @@ const Projects = () => {
                 )}
               </div>
 
-<<<<<<< HEAD
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-bold text-white mb-3 text-center">
                   {project.title}
@@ -345,19 +247,6 @@ const Projects = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-6 justify-center min-h-[96px] content-start">
-=======
-              {/* Project Content */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-3 text-center">
-                  {project.title}
-                </h3>
-                <p className="text-gray-300 mb-4 leading-relaxed text-center">
-                  {project.description}
-                </p>
-
-                {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mb-6 justify-center">
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
@@ -368,12 +257,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-<<<<<<< HEAD
                 <div className="mt-auto flex gap-3">
-=======
-                {/* Action Buttons */}
-                <div className="flex gap-3">
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
                   <a
                     href={project.githubUrl}
                     target="_blank"
@@ -392,8 +276,4 @@ const Projects = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Projects;
-=======
-export default Projects;
->>>>>>> d8b3af1083363e5b071585001e2e73a1228e2038
